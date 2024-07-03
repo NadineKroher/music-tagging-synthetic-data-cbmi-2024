@@ -5,6 +5,7 @@ which explores the potential of training music tagging system on synthetically g
 Our paper is available
 on [ArXiv](https://arxiv.org/abs/2407.02156) . 
 
+Co-authors: [Nadine Kroher](https://github.com/NadineKroher), [Stephen Manangu](https://github.com/CodeBot-del) and [Aggelos Pikrakis](https://github.com/pikrakis)
 ## Overview
 
 This initial study uses the GTZAN dataset, which is available for download [here](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification). 
@@ -69,8 +70,8 @@ You can run `plot_embeddings.py` to visualize an intermediate representation wit
 
 The plots should look like this:
 
-<img src="without_da.png" width="100" height="100" alt="Domain Adaptation in music tagging">
-<img src="with_da.png" width="100" height="100" alt="Domain Adaptation in music tagging">
+<img src="without_da.png" width="325" height="300" alt="Domain Adaptation in music tagging">
+<img src="with_da.png" width="325" height="300" alt="Domain Adaptation in music tagging">
 
 
 Run `plot_confusion_matrices.py` script (pass the source and target data paths together with the model type) to plot the confusion matrix.
